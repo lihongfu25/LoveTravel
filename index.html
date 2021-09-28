@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Travel - Best Travel</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- font icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="navbar__logo">
+                <img src="./assets/img/logo.png" alt="" class="navbar__logo-img">
+            </div>
+
+            <div class="navbar__list">
+                <li class="navbar__item">
+                    <a href="http://localhost:5500" class="navbar__item-link">HOME</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="#" class="navbar__item-link">PACKAGES</a>
+                    <!-- menu-2 -->
+                    <ul class="subnav__list menu-2">
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">Search 1</a>
+                            <div><span class="subnav__item-tag right red">HOT</span></div>
+                        </li>
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">Search 2</a>
+                        </li>
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">Tour Package</a>
+                            <div><i class="subnav__item-icon right fas fa-caret-right"></i></div>
+                            <!-- menu-3 -->
+                            <ul class="subnav__list menu-3">
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__item-link">Carousel</a>
+                                   <div><span class="subnav__item-tag right blue">BEST</span></div>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__item-link">Custom Map</a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__item-link">360° Panorama</a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__item-link">Default</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">Destination</a>
+                        </li>
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">Typology</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar__item">
+                    <a href="#" class="navbar__item-link">SHOP</a>
+                    <!-- menu-2 -->
+                    <ul class="subnav__list menu-2">
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">Archive</a>
+                        </li>
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">Single Product</a>
+                        </li>
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">Cart</a>
+                        </li>
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">Checkout</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar__item">
+                    <a href="#" class="navbar__item-link">ABOUT US</a>
+                    <!-- menu-2 -->
+                    <ul class="subnav__list menu-2">
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">About Us</a>
+                            <div><span class="subnav__item-tag right green">NEW</span></div>
+                        </li>
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">About Us 2</a>
+                        </li>
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">About Us 3</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar__item">
+                    <a href="#" class="navbar__item-link">PAGES</a>
+                    <!-- menu-2 -->
+                    <ul class="subnav__list menu-2">
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">Services</a>
+                        </li>
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">Agency Tours</a>
+                        </li>
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">Testimonials</a>
+                        </li>
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">Prices</a>
+                        </li>
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">Promotions</a>
+                        </li>
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">Faq</a>
+                        </li>
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">Coming Soon</a>
+                        </li>
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">About Us</a>
+                            <div><i class="subnav__item-icon right fas fa-caret-right"></i></div>
+                            <!-- menu-3 -->
+                            <ul class="subnav__list menu-3">
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__item-link">About Us 1</a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__item-link">About Us 2</a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__item-link">About Us 3</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">Contact</a>
+                            <div><i class="subnav__item-icon right fas fa-caret-right"></i></div>
+                            <!-- menu-3 -->
+                            <ul class="subnav__list menu-3">
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__item-link">Contact 1</a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__item-link">Contact 2</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar__item">
+                    <a href="#" class="navbar__item-link">NEWS</a>
+                    <!-- menu-2 -->
+                    <ul class="subnav__list menu-2">
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">Archive</a>
+                        </li>
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">Single Post</a>
+                            <div><i class="subnav__item-icon right fas fa-caret-right"></i></div>
+                            <!-- menu-3 -->
+                            <ul class="subnav__list menu-3">
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__item-link">Full Width</a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__item-link">Right Sidebar</a>
+                                </li>
+                                <li class="subnav__item">
+                                    <a href="#" class="subnav__item-link">Left Sidebar</a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navbar__item">
+                    <a href="#" class="navbar__item-link">CONTACT</a>
+                    <!-- menu-2 -->
+                    <ul class="subnav__list menu-2">
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">Contact 1</a>
+                        </li>
+                        <li class="subnav__item">
+                            <a href="#" class="subnav__item-link">Contact 2</a>
+                        </li>
+                    </ul>
+                </li>
+            </div>
+
+            <a href="#" style="flex: 1; margin-left: 24px;"><button class="btn size-m violet">BOOK NOW</button></a>
+
+            <div class="navbar__menu-bar">
+                <img src="./assets/img/menu.png" alt="" class="navbar__menu-bar-img">
+            </div>
+            <div class="bar-options">
+                <div class="bar-container">
+                    <div class="bar-heading">
+                        <p class="bar-heading__desc">BEST</p>
+                        <u>PACKAGES</u>
+                        <span class="bar-heading__close">
+                            <img src="./assets/img/filter/error.png" alt="" class="bar-heading__close-img">
+                        </span>
+                    </div>
+                    <ul class="bar__list best-package">
+    
+                    </ul>
+                </div>
+                <div class="section-30"></div>
+                <div class="bar-container">
+                    <div class="place-destination">
+                        <img src="./assets/img/Package/hoian_old_town.jpg" alt="Hoian" class="place-destination-img">
+                        <div class="place-filter-a-content">
+                            <div class="place-filter">
+                                <img src="./assets/img/filter/asia-filter.png" alt="" class="place-filter-img">
+                            </div>
+                            <div class="place-content">
+                                <h3 class="place-content-continents">ASIA</h3>
+                                <h6 class="place-content-quality">5 PACKAGES</h6>
+                            </div>    
+                        </div>
+                        <div class="place-details blue">
+                            <h3 class="place-details-title">Packages</h3>
+                            <div style="margin: 20px 0; text-align: center;">
+                                <h6 class="place-details-name package" data-value="phoenixtown">Phoenix Town</h6>
+                                <h6 class="place-details-name package" data-value="hongkong">Hong Kong</h6>
+                                <h6 class="place-details-name package" data-value="phuket">Phuket</h6>
+                                <h6 class="place-details-name package" data-value="hoian">Hoi An</h6>
+                                <h6 class="place-details-name package" data-value="coto-islands">Co To Islands</h6>
+                            </div>
+                            <button class="btn size-s destinations" style="color: #14b7d3;" data-value="">VIEW DESTINATION</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-30"></div>
+                <div class="bar-container">
+                    <div class="bar-heading">
+                        <p class="bar-heading__desc">LAST</p>
+                        <u>MINUTES</u>
+                    </div>
+                    <ul class="bar__list last-minutes">
+                        
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <div class="header__selection-container">
+            <div class="header__selection-msg">
+                <h1 class="header__selection-title">Search your next <u>Holiday</u></h1>
+                <div class="section-30"></div>
+                <h3 class="header__selection-desc">CHECK OUR BEST PROMOTIONS</h3>
+            </div>
+            <div class="section-60"></div>
+            <div style="position: relative;">
+                <select name="location" class="header__selection-list">
+                    <option value="" class="header__selection-item">Choose your Destination...</option>
+                    <option value="europe" class="header__selection-item">Europe</option>
+                    <option value="germany" class="header__selection-item">- Germany</option>
+                    <option value="netherlands" class="header__selection-item">- Netherlands</option>
+                    <option value="asia" class="header__selection-item">Asia</option>
+                    <option value="china" class="header__selection-item">- China</option>
+                    <option value="hong-kong" class="header__selection-item">- Hong Kong</option>
+                    <option value="thailand" class="header__selection-item">- Thailand</option>
+                    <option value="americas" class="header__selection-item">Americas</option>
+                </select>
+                <input type="submit" value="" class="header__selection-btn">
+            </div>
+            <div class="section-60"></div>
+            <div class="r">
+                <div class="col">
+                    <div class="header__selection-option">
+                        <img src="./assets/img/filter/t-relax.png" alt="" class="header__selection-option-img">
+                        <div class="section-5"></div>
+                        <p class="header__selection-option-desc">RELAX</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="header__selection-option">
+                        <img src="./assets/img/filter/t-cultural.png" alt="" class="header__selection-option-img">
+                        <div class="section-5"></div>
+                        <p class="header__selection-option-desc">CULTURAL</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="header__selection-option">
+                        <img src="./assets/img/filter/t-sport.png" alt="" class="header__selection-option-img">
+                        <div class="section-5"></div>
+                        <p class="header__selection-option-desc">SPORT</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="header__selection-option">
+                        <img src="./assets/img/filter/t-history.png" alt="" class="header__selection-option-img">
+                        <div class="section-5"></div>
+                        <p class="header__selection-option-desc">HISTORY</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- destination start -->
+    <div class="container">
+        <div class="grid wide">
+            <div class="heading">
+                <h6 class="heading-proposals">OUR PROPOSALS</h6>
+                <div class="section-10"></div>
+                <div class="heading-title">
+                    <p style="margin-right: 8px;">OUR</p>
+                    <u>DESTINATIONS</u>
+                </div>
+            </div>
+            <div class="section-30"></div>
+            <div class="row">
+                <div class="col l-4">
+                    <div class="place-destination">
+                        <img src="./assets/img/Package/europe_1080.jpg" alt="Hoian" class="place-destination-img">
+                        <div class="place-filter-a-content">
+                            <div class="place-filter">
+                                <img src="./assets/img/filter/arch.png" alt="" class="place-filter-img">
+                            </div>
+                            <div class="place-content">
+                                <h3 class="place-content-continents">Europe</h3>
+                                <h6 class="place-content-quality">2 PACKAGES</h6>
+                            </div>    
+                        </div>
+                        <div class="place-details blue">
+                            <h3 class="place-details-title">Packages</h3>
+                            <div style="margin: 20px 0; text-align: center;">
+                                <h6 class="place-details-name package" data-value="berlin">Berlin</h6>
+                                <h6 class="place-details-name package" data-value="amsterdam">Amsterdam</h6>
+                            </div>
+                            <button class="btn size-s destinations" style="color: #14b7d3;" data-value="">VIEW DESTINATION</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col l-4">
+                    <div class="place-destination">
+                        <img src="./assets/img/Package/phoenix-town.png" alt="Phoenix Town" class="place-destination-img">
+                        <div class="place-filter-a-content">
+                            <div class="place-filter">
+                                <img src="./assets/img/filter/asia-filter.png" alt="" class="place-filter-img">
+                            </div>
+                            <div class="place-content">
+                                <h3 class="place-content-continents">China</h3>
+                                <h6 class="place-content-quality">1 PACKAGES</h6>
+                            </div>    
+                        </div>
+                        <div class="place-details blue">
+                            <h3 class="place-details-title">Packages</h3>
+                            <div style="margin: 20px 0; text-align: center;">
+                                <h6 class="place-details-name package" data-value="phoenixtown">Phoenix Town</h6>
+                            </div>
+                            <button class="btn size-s destinations" style="color: #14b7d3;" data-value="">VIEW DESTINATION</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col l-4">
+                    <div class="place-destination">
+                        <img src="./assets/img/Package/vietnam_1080.jpg" alt="Hoian" class="place-destination-img">
+                        <div class="place-filter-a-content">
+                            <div class="place-filter">
+                                <img src="./assets/img/filter/asia-filter.png" alt="" class="place-filter-img">
+                            </div>
+                            <div class="place-content">
+                                <h3 class="place-content-continents">Viet Nam</h3>
+                                <h6 class="place-content-quality">2 PACKAGES</h6>
+                            </div>    
+                        </div>
+                        <div class="place-details blue">
+                            <h3 class="place-details-title">Packages</h3>
+                            <div style="margin: 20px 0; text-align: center;">
+                                <h6 class="place-details-name package" data-value="hoian">Hoi An</h6>
+                                <h6 class="place-details-name package" data-value="coto-islands">Co To Islands</h6>
+                            </div>
+                            <button class="btn size-s destinations" style="color: #14b7d3;" data-value="">VIEW DESTINATION</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col l-4">
+                    <div class="place-destination">
+                        <img src="./assets/img/Package/bangkok.jpg" alt="Bang Kok" class="place-destination-img">
+                        <div class="place-filter-a-content">
+                            <div class="place-filter">
+                                <img src="./assets/img/filter/thailand.png" alt="" class="place-filter-img">
+                            </div>
+                            <div class="place-content">
+                                <h3 class="place-content-continents">Thailand</h3>
+                                <h6 class="place-content-quality">1 PACKAGES</h6>
+                            </div>    
+                        </div>
+                        <div class="place-details blue">
+                            <h3 class="place-details-title">Packages</h3>
+                            <div style="margin: 20px 0; text-align: center;">
+                                <h6 class="place-details-name package" data-value="thailand">Phuket</h6>
+                            </div>
+                            <button class="btn size-s destinations" style="color: #14b7d3;" data-value="">VIEW DESTINATION</button>
+                        </div>
+                    </div>
+                </div>            
+
+                <div class="col l-4">
+                    <div class="place-destination">
+                        <img src="./assets/img/Package/san-francisco_1080.jpg" alt="San Francisco" class="place-destination-img">
+                        <div class="place-filter-a-content">
+                            <div class="place-filter">
+                                <img src="./assets/img/filter/golden-gate.png" alt="" class="place-filter-img">
+                            </div>
+                            <div class="place-content">
+                                <h3 class="place-content-continents">United States</h3>
+                                <h6 class="place-content-quality">1 PACKAGES</h6>
+                            </div>    
+                        </div>
+                        <div class="place-details blue">
+                            <h3 class="place-details-title">Packages</h3>
+                            <div style="margin: 20px 0; text-align: center;">
+                                <h6 class="place-details-name package" data-value="san-francisco">San Francisco</h6>
+                            </div>
+                            <button class="btn size-s destinations" style="color: #14b7d3;" data-value="">VIEW DESTINATION</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col l-4">
+                    <div class="place-destination">
+                        <img src="./assets/img/Package/amsterdam_1080.png" alt="Amsterdam" class="place-destination-img">
+                        <div class="place-filter-a-content">
+                            <div class="place-filter">
+                                <img src="./assets/img/filter/london-eye.png" alt="" class="place-filter-img">
+                            </div>
+                            <div class="place-content">
+                                <h3 class="place-content-continents">Netherlands</h3>
+                                <h6 class="place-content-quality">1 PACKAGES</h6>
+                            </div>    
+                        </div>
+                        <div class="place-details blue">
+                            <h3 class="place-details-title">Packages</h3>
+                            <div style="margin: 20px 0; text-align: center;">
+                                <h6 class="place-details-name package" data-value="amsterdam">Amsterdam</h6>
+                            </div>
+                            <button class="btn size-s destinations" style="color: #14b7d3;" data-value="">VIEW DESTINATION</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- destination end -->
+
+    <!-- package section start -->
+    <div class="section-element-full">
+        <div class="section-element__msg">
+            <h6 style="font-size: 45px;">Your</h6>
+            <h6 class="section-element__desc">
+                Next
+                <u>Holiday</u>
+            </h6>
+        </div>
+        <div class="section-element__btn">
+            <button class="btn size-l lsp package">VIEW ALL PACKAGES</button>
+        </div>
+    </div>
+    <!-- package section end -->
+
+    <!--  -->
+    <div class="container">
+        <div class="grid wide">
+            <div class="book-place">
+                <div class="book-place-content">
+                    <h3 class="book-place-content-nation">VIET NAM</h3>
+                    <h2 class="book-place-content-title">
+                        The Best 
+                        <u>Beaches</u>
+                    </h2>
+                    <div class="section-20"></div>
+                    <p style="color: #9a9a9a;">
+                        Lorem ipsum dolor sit amet, consectetur adip iscing elit. Proin rhoncus urna dictum neque molestie ultricies mauris ac.
+                    </p>
+                    <div class="section-20"></div>
+                    <p style="color: #9a9a9a;">
+                        Lorem ipsum dolor sit amet, consectetur adip iscing elit. Proin rhoncus urna dictum neque molestie ultricies mauris ac.
+                    </p>
+                    <div class="section-20"></div>
+                    <h1 class="book-place-content-price">
+                        <strike style="color: #ddd;">800</strike>
+                         500 $ 
+                         <span style="font-size: 14px; color: #555;">/ FOR PERSON</span>
+                    </h1>
+                    <div class="section-20"></div>
+                    <a href="#">
+                        <button class="btn size-l lsp green">BOOK NOW</button>
+                    </a>
+                </div>
+
+                <!-- img slider start -->
+                <div class="slideshow">
+
+                    <div class="slides">
+                        
+                        <!-- radio btn start -->
+                        <input type="radio" name="slide-img" id="slide_1">
+                        <input type="radio" name="slide-img" id="slide_2">
+                        <input type="radio" name="slide-img" id="slide_3">
+                        <input type="radio" name="slide-img" id="slide_4">
+                        <!-- radio btn end -->
+
+                        <!-- slide img start -->
+                        <img src="https://busvietnam.net/wp-content/uploads/2019/05/nha-trang-1.jpg" alt="" class="slide-img first">
+                       
+                        <img src="http://dulichvietnam.com.vn/data/du-lich-hawaii-1.jpg" alt="" class="slide-img second">
+
+                        <img src="https://i.ytimg.com/vi/5Ok7-XHPGdA/maxresdefault.jpg" alt="" class="slide-img third">
+
+                        <img src="https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/kealani-sunset-a-colorful-sunset-in-wailea-maui-hawaii-nature-photographer.jpg" alt="" class="slide-img final">
+                        <!-- slide img end -->
+
+                        <!-- navigation auto start -->
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+                        <!-- navigation auto end -->
+                    </div>
+
+                    <!-- manual navigation start -->
+                    <div class="navigation-manual">
+                        <label for="slide_1" class="manual-btn"></label>
+                        <label for="slide_2" class="manual-btn"></label>
+                        <label for="slide_3" class="manual-btn"></label>
+                        <label for="slide_4" class="manual-btn"></label>
+                    </div>
+                    <!-- manual navigation end -->
+
+                    <!-- time start -->
+                    <div class="time lsp">
+                        <div class="time-box">
+                            <h3 class="number">000</h3>
+                            <p class="unit">DAYS</p>    
+                        </div>
+                        <div class="time-box">
+                            <h3 class="number">000</h3>
+                            <p class="unit">HOURS</p>
+                        </div>
+                        <div class="time-box">
+                            <h3 class="number">000</h3>
+                            <p class="unit">MINUTES</p>
+                        </div>
+                        <div class="time-box">
+                            <h3 class="number">000</h3>
+                            <p class="unit">SECONDS</p>
+                        </div>
+                    </div>
+                    <!-- time end -->
+
+                </div>
+                <!-- img slider end -->
+            </div>
+            <div class="section-100"></div>
+
+            <!-- tour start -->
+            <div class="row">
+                <div class="col l-4">
+                    <div class="tour">
+                        <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/04/icon-around.png" alt="" class="tour-img">
+                        <div class="tour-content">
+                            <b class="tour-content__heading">World Tour</b>
+                            <p class="tour-content__desc">Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
+                            <a href="#" class="tour-content__link">View More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col l-4">
+                    <div class="tour">
+                        <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/04/icon-boat.png" alt="" class="tour-img">
+                        <div class="tour-content">
+                            <b class="tour-content__heading">Cruises</b>
+                            <p class="tour-content__desc">Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
+                            <a href="#" class="tour-content__link">View More</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col l-4">
+                    <div class="tour">
+                        <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/04/icon-landmark.png" alt="" class="tour-img">
+                        <div class="tour-content">
+                            <b class="tour-content__heading">Best Tours</b>
+                            <p class="tour-content__desc">Lorem ipsum dolor sit amet conse ctetur adip iscing elit Proin rhonc us urna dictum.</p>
+                            <a href="#" class="tour-content__link">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- tour end -->
+        </div>
+    </div>
+    <!--  -->
+
+    <!-- discover section start -->
+    <div style="display: flex;">
+        <div class="col-half discover-container">
+            <h3 class="discover-heading lsp">01. LAST MINUTE</h3>
+            <div class="section-5"></div>
+            <h2 class="discover-theme">Discover Cities</h2>
+            <div class="section-20"></div>
+            <button class="btn size-l lsp" style="color: #f3a783;">DETAILS</button>
+        </div>
+
+        <div class="col-half discover-container">
+            <h3 class="discover-heading lsp">02. PROMOTIONS</h3>
+            <div class="section-5"></div>
+            <h2 class="discover-theme">Discover Nature</h2>
+            <div class="section-20"></div>
+            <button class="btn size-l lsp" style="color: #19b091;">DETAILS</button>
+        </div>
+    </div>
+    <!-- discover section end -->
+
+    <!-- package start -->
+    <div class="container">
+        <div class="grid wide">
+            <div class="heading">
+                <h6 class="heading-proposals">OUR PROPOSALS</h6>
+                <div class="section-10"></div>
+                <div class="heading-title">
+                    <p style="margin-right: 8px;">OUR</p>
+                    <u>PACKAGES</u>
+                </div>
+            </div>
+            <div class="section-30"></div>
+            <div class="row">
+                <div class="col l-4">
+                    <div class="packages-container">
+                        <div class="packages-img">
+                            <div class="packages-sales lsp" data-value="1">SALE</div>
+                            <img src="https://www.congdantoancau.info/wp-content/uploads/2019/04/kham-pha-berlin-thu-do-cua-duc-voi-3-dia-danh-noi-tieng.jpg" alt="Berlin">
+                            <div class="packages-filter" style="background-image: linear-gradient(to right, #ffd106, #ff9d05);">
+                                <img src="./assets/img/filter/arch.png" alt="">
+                            </div>
+                        </div>
+                        <div class="packages__body">
+
+                            <div class="packages__name-a-location">
+                                <h3 class="packages__name">Berlin</h3>
+                                <div class="packages__location">
+                                    <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/plugins/nd-travel/addons/visual/packages/layout/icon-pin-grey.png" alt="" class="packages__location-icon">
+                                    <h5 class="packages__location-nation fw-400 lsp">Europe</h5>
+                                </div>
+                                <div class="section-10">
+                                    <div class="section-5"></div>
+                                </div>
+                            </div>
+
+                            <div style="display: flex; justify-content: space-between; color: #555;">
+                                <div class="packages__cultural">
+                                    <div class="section-10"></div>
+
+                                    <h6 class="fw-400 lsp">CULTURAL</h6>
+                                    <div>
+                                        <h6 class="fw-400 lsp" style="display: inline-block;">RELAX</h6>
+                                        <span class="quantity yellow">+ 1</span>
+                                    </div>
+
+                                    <div class="section-10">
+                                        <div class="section-5"></div>
+                                    </div>
+                                </div>
+
+                                <div class="packages__price" data-value="1">
+                                    <div class="section-10"></div>
+
+                                    <h2 class="fw-400 lsp">
+                                        <span>700</span>
+                                        <span>$</span>
+                                    </h2>
+
+                                    <div class="section-10">
+                                        <div class="section-5"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="packages__desc">
+                                <div class="section-20"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+                                <div class="section-20"></div>
+                                <button class="btn size-s yellow">DETAILS</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col l-4">
+                    <div class="packages-container">
+                        <div class="packages-img">
+                            <div class="packages-sales lsp enabled" data-value="2">SALE</div>
+                            <img src="https://vietcomtourist.com/datafiles/22104/upload/images/HOC%20SINH/phuong-hoang-co-tran-trung-quoc-ve-dem.jpg" alt="Phượng Hoàng Cổ Trấn">
+                            <div class="packages-filter" style="background-image: linear-gradient(to right, #f7666f, #f78d66);">
+                                <img src="./assets/img/filter/asia-filter.png" alt="">
+                            </div>
+                        </div>
+                        <div class="packages__body">
+
+                            <div class="packages__name-a-location">
+                                <h3 class="packages__name">Phoenix Town</h3>
+                                <div class="packages__location">
+                                    <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/plugins/nd-travel/addons/visual/packages/layout/icon-pin-grey.png" alt="" class="packages__location-icon">
+                                    <h5 class="packages__location-nation fw-400 lsp">China</h5>
+                                </div>
+                                <div class="section-10">
+                                    <div class="section-5"></div>
+                                </div>
+                            </div>
+
+                            <div style="display: flex; justify-content: space-between; color: #555;">
+                                <div class="packages__cultural">
+                                    <div class="section-10"></div>
+
+                                    <h6 class="fw-400 lsp">HISTORY</h6>
+                                    <div>
+                                        <h6 class="fw-400 lsp" style="display: inline-block;">CULTURAL</h6>
+                                        <span class="quantity red">+ 1</span>
+                                    </div>
+
+                                    <div class="section-10">
+                                        <div class="section-5"></div>
+                                    </div>
+                                </div>
+
+                                <div class="packages__price" data-value="2">
+                                    <div class="section-10"></div>
+
+                                    <h2 class="fw-400 lsp">
+                                        <span class="old-price"><strike>700</strike></span>
+                                        <span>350</span>
+                                        <span>$</span>
+                                    </h2>
+
+                                    <div class="section-10">
+                                        <div class="section-5"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="packages__desc">
+                                <div class="section-20"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+                                <div class="section-20"></div>
+                                <button class="btn size-s red">DETAILS</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col l-4">
+                    <div class="packages-container">
+                        <div class="packages-img">
+                            <div class="packages-sales lsp" data-value="3">SALE</div>
+                            <img src="https://www.aluxurytravelblog.com/wp-content/uploads/2020/01/GoldenGateBridge_SanFrancisco_USA.jpg" alt="San Francisco">
+                            <div class="packages-filter" style="background-image: linear-gradient(to right, #ba71d8, #d9717c);">
+                                <img src="./assets/img/filter/golden-gate.png" alt="">
+                            </div>
+                        </div>
+                        <div class="packages__body">
+
+                            <div class="packages__name-a-location">
+                                <h3 class="packages__name">San Francisco</h3>
+                                <div class="packages__location">
+                                    <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/plugins/nd-travel/addons/visual/packages/layout/icon-pin-grey.png" alt="" class="packages__location-icon">
+                                    <h5 class="packages__location-nation fw-400 lsp">United States</h5>
+                                </div>
+                                <div class="section-10">
+                                    <div class="section-5"></div>
+                                </div>
+                            </div>
+
+                            <div style="display: flex; justify-content: space-between; color: #555;">
+                                <div class="packages__cultural">
+                                    <div class="section-10"></div>
+
+                                    <h6 class="fw-400 lsp">SPORT</h6>
+                                    <div>
+                                        <h6 class="fw-400 lsp" style="display: inline-block;">RELAX</h6>
+                                        <span class="quantity violet">+ 1</span>
+                                    </div>
+
+                                    <div class="section-10">
+                                        <div class="section-5"></div>
+                                    </div>
+                                </div>
+
+                                <div class="packages__price" data-value="3">
+                                    <div class="section-10"></div>
+
+                                    <h2 class="fw-400 lsp">
+                                        <span class="old-price"><strike>400</strike></span>
+                                        <span>400</span>
+                                        <span>$</span>
+                                    </h2>
+
+                                    <div class="section-10">
+                                        <div class="section-5"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="packages__desc">
+                                <div class="section-20"></div>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ut efficitur ante. Donec dapibus dictum scelerisque.</p>
+                                <div class="section-20"></div>
+                                <button class="btn size-s violet">DETAILS</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- package end -->
+
+    <footer class="footer">
+        <div class="section-60"><div class="section-20"></div></div>
+        <div class="contact">
+            <div class="contact-msg">
+                <h3 class="fw-400 lsp" style="color: #9a9a9a;">KEEP IN TOUCH</h3>
+                <div class="section-5"></div>
+                <h2 style="font-size: 36px; color: #555;">Travel with Us</h2>
+            </div>
+
+            <div class="contact-input">
+                <input type="text">
+                <button class="btn size-m blue lsp">SEND</button>
+            </div>
+        </div>
+        <div class="section-30"></div>
+        <div class="grid wide footer-content">
+            <div class="row padding_35_30">
+                <div class="col l-6">
+                    <img src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/logo-color.png" alt="" class="footer-logo">
+                    <div class="section-30"></div>
+                    <div style="width: 480px;">
+                        <p style="color: #9a9a9a; letter-spacing: 1px; line-height: 27px; text-align: justify;">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ut diam et nibh
+                             <i>condimentum</i> 
+                            venenatis eu ac magnasin. Quisque interdum est mauris, eget ullamcorper.
+                        </p>
+                    </div>
+                    <div class="section-30"></div>
+                    <div class="footer-brands">
+                        <a href="#">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-facebook-square"></i>
+                        </a>
+                        <a href="#">
+                            <i class="fab fa-vimeo-v"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col l-2">
+                    <h6 class="lsp" style="font-size: 14px; color: #555;">OUR AGENCY</h6>
+                    <div class="section-30"></div>
+                    <p style="color: #9a9a9a; line-height: 27px; letter-spacing: 1px;">
+                        <img width="10" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/right-arrow.png" alt="">
+                        &nbsp;Services
+                    </p>
+                    <p style="color: #9a9a9a; line-height: 27px; letter-spacing: 1px;">
+                        <img width="10" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/right-arrow.png" alt="">
+                        &nbsp;Insurancee
+                    </p>
+                    <p style="color: #9a9a9a; line-height: 27px; letter-spacing: 1px;">
+                        <img width="10" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/right-arrow.png" alt="">
+                        &nbsp;Agency
+                    </p>
+                    <p style="color: #9a9a9a; line-height: 27px; letter-spacing: 1px;">
+                        <img width="10" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/right-arrow.png" alt="">
+                        &nbsp;Tourism
+                    </p>
+                    <p style="color: #9a9a9a; line-height: 27px; letter-spacing: 1px;">
+                        <img width="10" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/right-arrow.png" alt="">
+                        &nbsp;Payment
+                    </p>
+                </div>
+
+                <div class="col l-2">
+                    <h6 class="lsp" style="font-size: 14px; color: #555;">PARTNERS</h6>
+                    <div class="section-30"></div>
+                    <p style="color: #9a9a9a; line-height: 27px; letter-spacing: 1px;">
+                        <img width="10" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/right-arrow.png" alt="">
+                        &nbsp;Booking
+                    </p>
+                    <p style="color: #9a9a9a; line-height: 27px; letter-spacing: 1px;">
+                        <img width="10" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/right-arrow.png" alt="">
+                        &nbsp;RentalCar
+                    </p>
+                    <p style="color: #9a9a9a; line-height: 27px; letter-spacing: 1px;">
+                        <img width="10" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/right-arrow.png" alt="">
+                        &nbsp;HotelWorld
+                    </p>
+                    <p style="color: #9a9a9a; line-height: 27px; letter-spacing: 1px;">
+                        <img width="10" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/right-arrow.png" alt="">
+                        &nbsp;Trivago
+                    </p>
+                    <p style="color: #9a9a9a; line-height: 27px; letter-spacing: 1px;">
+                        <img width="10" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/right-arrow.png" alt="">
+                        &nbsp;TripAdvisor
+                    </p>
+                </div>
+
+                <div class="col l-2">
+                    <h6 class="lsp" style="font-size: 14px; color: #555;">LAST MINUTE</h6>
+                    <div class="section-30"></div>
+                    <p style="color: #9a9a9a; line-height: 27px; letter-spacing: 1px;">
+                        <img width="10" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/right-arrow.png" alt="">
+                        &nbsp;Vietnam
+                    </p>
+                    <p style="color: #9a9a9a; line-height: 27px; letter-spacing: 1px;">
+                        <img width="10" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/right-arrow.png" alt="">
+                        &nbsp;China
+                    </p>
+                    <p style="color: #9a9a9a; line-height: 27px; letter-spacing: 1px;">
+                        <img width="10" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/right-arrow.png" alt="">
+                        &nbsp;California
+                    </p>
+                    <p style="color: #9a9a9a; line-height: 27px; letter-spacing: 1px;">
+                        <img width="10" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/right-arrow.png" alt="">
+                        &nbsp;Europe
+                    </p>
+                    <p style="color: #9a9a9a; line-height: 27px; letter-spacing: 1px;">
+                        <img width="10" src="http://www.nicdarkthemes.com/themes/travel/wp/demo/love-travel/wp-content/uploads/sites/3/2018/11/right-arrow.png" alt="">
+                        &nbsp;Oceania
+                    </p>
+                </div>
+            </div>
+            <div class="copyright blue">
+                <h6 class="fw-400 lsp">THE BEST WORDPRESS TRAVEL THEME</h6>
+                <h6 class="fw-400 lsp">COPYRIGHT FU WHEN RẢNH 2021</h6>
+            </div>
+        </div>
+    </footer>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
