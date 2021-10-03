@@ -124,11 +124,13 @@ const destinationsBtns = $$('.destinations')
 
 // go to function
 function goToHome() {
-    window.location.assign('http://localhost:5500')
+    window.location.assign(window.location.hostname + '/LoveTravel')
 }
 
 // handle go to
 logoBtn.onclick = this.goToHome
+
+$('.home').setAttribute("href", window.location.hostname + '/LoveTravel'); 
 
 // menu bars
 const menuBtn = $('.navbar__menu-bar-img')
